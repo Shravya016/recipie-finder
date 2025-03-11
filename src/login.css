@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* existing styles */
 .login-box{
   width: 300px;
   height: 100%;
@@ -42,3 +47,6 @@
     font-size:small;
     margin-left:70px;
 }
+body {
+    background-color: white; /* Dark background */
+  }

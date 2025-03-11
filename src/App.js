@@ -1,13 +1,12 @@
-
 import './App.css';
-import Login from './login.jsx'
+import { LoginForm } from './components/login-form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Login/>
-      </header>
+      <main className="min-h-screen flex items-center justify-center p-4 bg-background">
+        <LoginForm />
+      </main>
     </div>
   );
 }
